@@ -4,7 +4,7 @@ import "fmt"
 
 type People struct {
 	Name string
-	ge   int
+	Age  int
 }
 
 func (p *People) Describe() {
