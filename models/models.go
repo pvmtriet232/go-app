@@ -7,6 +7,6 @@ type Person struct {
 	Age  int
 }
 
-func (p *Person) checkout() {
+func (p *Person) Checkout() {
 	fmt.Printf("My name is %v, I'm %v", p.Name, p.Age)
 }
