@@ -10,5 +10,7 @@ func main() {
 	// Get a greeting message and print it.
 	message := greetings.Hello("Gladys")
 	fmt.Println(message)
+	Triet := &Person{"Triet", 26}
+	Triet.checkout()
 
 }
