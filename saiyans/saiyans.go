@@ -9,5 +9,5 @@ type Saiyans struct {
 }
 
 func (s *Saiyans) Checkout() {
-	fmt.Printf("Name : %v, Power: %v , super saiyan status: %v", s.Name, s.Power, s.SSJ)
+	fmt.Printf("Name : %v, Power: %v , super saiyan status: %v \n", s.Name, s.Power, s.SSJ)
 }

@@ -8,5 +8,5 @@ type Person struct {
 }
 
 func (p *Person) Checkout() {
-	fmt.Printf("My name is %v, I'm %v", p.Name, p.Age)
+	fmt.Printf("My name is %v, I'm %v \n", p.Name, p.Age)
 }
