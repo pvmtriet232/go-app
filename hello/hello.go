@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-app/greetings"
+
+	"github.com/pvmtriet232/go-app/greetings"
 )
 
 func main() {
