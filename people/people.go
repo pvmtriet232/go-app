@@ -7,5 +7,5 @@ type People struct {
 }
 
 func (p *People) Describe() {
-	fmt.Printf("My name is %v and I'm %v years old.", p.Name, p.Age)
+	fmt.Printf("My name is %v.", p.Name)
 }
