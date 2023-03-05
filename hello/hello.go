@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/pvmtriet232/go-app/greetings"
-	_ "github.com/pvmtriet232/go-app/models"
+	"github.com/pvmtriet232/go-app/models"
 )
 
 func main() {
