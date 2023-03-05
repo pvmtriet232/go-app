@@ -12,6 +12,6 @@ func main() {
 	message := greetings.Hello("Gladys")
 	fmt.Println(message)
 	Triet := &models.Person{"Triet", 26}
-	fmt.Println(Triet)
+	Triet.models.Checkout()
 
 }
